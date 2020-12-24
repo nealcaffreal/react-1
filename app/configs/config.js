@@ -3,8 +3,14 @@ export const set = 'set$'
 export const brandName = 'React' // slogan
 
 // 开发环境默认配置
-let _serverIp = 'http://192.168.1.222'
-let _port = '1111'
+// let _serverIp = 'http://192.168.1.222'
+// let _port = '1111'
+// let _baseURL = `${_serverIp}:${_port}`
+// let _mockURL = 'http://localhost:1111/'
+
+
+let _serverIp = 'http://172.20.10.2'
+let _port = '8082'
 let _baseURL = `${_serverIp}:${_port}`
 let _mockURL = 'http://localhost:1111/'
 
